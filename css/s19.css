@@ -14239,8 +14239,8 @@ section.pix-intro-1:not([data-vc-full-width="true"]) .fullpage-container img {
 
 .pix-header .submenu-box .dropdown-toggle::after {
     display: inline-block !important;
-    content: "" !important;
-    font-family: 'pixicon' !important;
+    content: "\f107" !important;
+    font-family: "Font Awesome 5 Free" !important;
     border: 0 !important;
     padding-left: 10px;
     position: relative;
@@ -14263,9 +14263,9 @@ section.pix-intro-1:not([data-vc-full-width="true"]) .fullpage-container img {
 
 .pix-header-mobile .dropdown-toggle::after {
     display: inline-block !important;
-    content: "" !important;
-    font-family: 'pixicon' !important;
-    border: 0 !important;
+    content: "\f107" !important;
+    font-family: "Font Awesome 5 Free" !important;
+        border: 0 !important;
     padding-left: 10px;
     position: relative;
     top: 6px
