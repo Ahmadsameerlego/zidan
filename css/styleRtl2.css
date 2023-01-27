@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+main .content-area .container .item:not(.revert) .illustration{
+    padding-right: 50px;
+    padding-left: auto;
+}
+
+
+@media screen and (max-width: 820px){
+footer .container .item:not(:last-child) {
+    padding-left: 0;
+    padding-right:unset;
+    margin-bottom: 25px;
+}
+}
+
+footer .container .item.logo {
+    min-width: 300px;
+    padding: 0;
+    margin-right: 0;
+}
+
+.fq-area .row:last-child {
+    margin-right: 10px;
+}
+
+.rv-area .preview {
+    border-right: 1px solid #e8e8e8;
+    border-left: none;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+.non-bg-banner.bg-new a , .non-bg-banner.bg-new .btn-link{
+    color: #fff;
+}
+.outer p , .outer h6{ color: #fff; }
+
+.faq-area .container .questions {
+    width: 100%;
+    padding: 20px 0px 20px 70px;
+}
