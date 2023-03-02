@@ -475,7 +475,8 @@
     border: none;
     border-radius: 0;
     -webkit-box-shadow: none;
-    box-shadow: none
+    box-shadow: none;
+    width:74%
 }
 
 .elementor .elementor-widget:not(.elementor-widget-text-editor):not(.elementor-widget-theme-post-content) figure {

@@ -36590,7 +36590,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--tp-ff-heading) !important;
+    font-family: 'Cairo', sans-serif!important;
     color: var(--tp-common-black);
     margin-top: 0px;
     font-weight: 700;
@@ -36632,7 +36632,7 @@ ul {
 }
 
 p {
-    font-family: var(--tp-ff-p);
+    font-family: 'Cairo', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: var(--tp-text-body);

@@ -258,7 +258,7 @@
 }
 
 .flickity-prev-next-button.previous {
-    left: -100px
+    left: 18px !important
 }
 
 .flickity-prev-next-button.next {
@@ -266,7 +266,7 @@
 }
 
 .flickity-rtl .flickity-prev-next-button.previous {
-    right: -100px
+    right: 18px !important
 }
 
 .flickity-rtl .flickity-prev-next-button.next {
@@ -693,7 +693,7 @@
 }
 
 .flickity-prev-next-button.previous {
-    right: -100px
+    left: 18px
 }
 
 .flickity-prev-next-button.next {
@@ -701,7 +701,7 @@
 }
 
 .flickity-rtl .flickity-prev-next-button.previous {
-    left: -100px
+    left: 18px
 }
 
 .flickity-rtl .flickity-prev-next-button.next {

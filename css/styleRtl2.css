@@ -3,10 +3,15 @@
 body{
     direction: rtl;
     text-align: right;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Cairo', sans-serif !important;
 }
+:root{
+    font-family: 'Cairo', sans-serif !important;
+}
+html{
+    font-family: 'Cairo', sans-serif !important;
 
-
+}
 main .content-area .container .item:not(.revert) .illustration{
     padding-right: 50px;
     padding-left: auto;
@@ -47,3 +52,9 @@ footer .container .item.logo {
     width: 100%;
     padding: 20px 0px 20px 70px;
 }
+
+h3:not(.elementor-heading-title){
+    text-align: center !important;
+}
+
+

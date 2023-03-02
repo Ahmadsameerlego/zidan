@@ -3412,13 +3412,13 @@ body {
 }
 
 .body-font {
-    font-family: var(--pix-body-font), sans-serif !important;
+    font-family: 'Cairo', sans-serif !important;
     letter-spacing: -0.01em
 }
 
 .secondary-font,
 .heading-font {
-    font-family: var(--pix-heading-font), sans-serif !important;
+    font-family: 'Cairo', sans-serif !important;
     letter-spacing: -0.03em
 }
 
@@ -3428,32 +3428,32 @@ body {
 
 h1,
 .h1 {
-    font-size: 3.75rem
+    font-size: 25px
 }
 
 h2,
 .h2 {
-    font-size: 3rem
+    font-size: 23px
 }
 
 h3,
 .h3 {
-    font-size: 2.25rem
+    font-size: 22px
 }
 
 h4,
 .h4 {
-    font-size: 1.875rem
+    font-size: 21px
 }
 
 h5,
 .h5 {
-    font-size: 1.5rem
+    font-size: 18px
 }
 
 h6,
 .h6 {
-    font-size: 1.125rem
+    font-size: 16px
 }
 
 h1 a,
@@ -13288,7 +13288,8 @@ footer,
     }
 
     .nav-style-megamenu>li.nav-item.mega-item .dropdown-menu {
-        top: 78%
+        top: 78%;
+        display: none !important;
     }
 
     .nav-style-megamenu>li.nav-item .nav-link {

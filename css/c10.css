@@ -3404,7 +3404,7 @@ a.text-light-opacity-10.btn span:before {
 body {
     letter-spacing: 0.01em;
     font-weight: 400;
-    font-family: var(--pix-body-font), sans-serif !important;
+    font-family: 'Cairo', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
@@ -3414,13 +3414,13 @@ body {
 }
 
 .body-font {
-    font-family: var(--pix-body-font), sans-serif !important;
+    font-family:'Cairo', sans-serif !important;
     letter-spacing: 0.01em
 }
 
 .secondary-font,
 .heading-font {
-    font-family: var(--pix-heading-font), sans-serif !important;
+    font-family:'Cairo', sans-serif !important;
     letter-spacing: -0.03rem
 }
 
@@ -11107,26 +11107,6 @@ input[type="button"].btn-block {
     width: 100%
 }
 
-html {
-    font-family: var(--pix-body-font), sans-serif !important;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    overflow-x: hidden;
-    width: 100%
-}
-
-body {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.8;
-    color: #adb5bd;
-    text-align: left;
-    background-color: #fff;
-    width: 100%;
-    min-height: 100vh;
-    min-height: -webkit-fill-available
-}
 
 .font-weight-bold {
     font-weight: 600 !important
